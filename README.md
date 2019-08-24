@@ -2,7 +2,7 @@
 Mała biblioteka do zamieszczenia slidera na Twojej stronie.
 *Opis dostępny również w języku [angielskim](https://github.com/abugjewski/sliderek/blob/master/README-EN.md)*
 - - -
-##Spis treści
+## Spis treści
 * [Wprowadzenie](#wprowadzenie)
 * [Technologie](#technologie)
 * [Instalacja](#instalacja)
@@ -10,15 +10,15 @@ Mała biblioteka do zamieszczenia slidera na Twojej stronie.
 * [Inspiracja](#inspiracja)
 * [Kontakt](#kontakt)
 - - -
-##Wprowadzenie
+## Wprowadzenie
 Sliderek pozwala użytkownikowi na zamieszenie prostego slidera ze zdjęciami i ich opisem (jeżeli trzeba) na swojej stronie. Z założenia projekt miał być po prostu tym - sliderem. Został jednak zmodyfikowany, by możliwe było jego łatwe zawarcie na (przynajmniej w teorii) dowolnej stronie. Definitywnie wymaga dodatkowych szlifów, jednak powinien zapewnić bazowe funkcjonalności.
 - - -
-##Technologie
+## Technologie
 * HTML
 * CSS
 * Javascript
 - - -
-##Instalacja
+## Instalacja
 Po pobraniu biblioteki należy zamieścić ją na stronie przez zawarcie plików *sliderek.css* oraz *sliderek.js*, najlepiej w znaczniku \<head>. Przykładowy sposób przedstawia wycinek kodu HTML poniżej:
 ```html
 <head>
@@ -27,7 +27,7 @@ Po pobraniu biblioteki należy zamieścić ją na stronie przez zawarcie plików
 </head>
 ```
 - - -
-##Sposób użycia
+## Sposób użycia
 Po zawarciu biblioteki na stronie, we własnym skrypcie javascript należy zawrzeć funkcję *createSliderek()*. Przykładowo:
 ```javascript
 createSliderek(".box", slides);
@@ -63,8 +63,8 @@ createSliderek(".box", slides);
 Przykład działania Sliderka można zobaczyć pod [tym linkiem](https://abugjewski.github.io/sliderektest).
 - - -
 
-##Inspiracja
+## Inspiracja
 Baza dla slidera powstała na podstawie tutoriala youtube, do którego prowadzi ten [link](https://www.youtube.com/watch?v=PDVr7qNytTg).
 - - -
-##Kontakt
+## Kontakt
 Projekt stworozny przez [Adriana Bugajewskiego](https://abugjewski.github.io/portfolio/). W razie pytań, sugestii lub innych spraw, zapraszam do kontaktu!
